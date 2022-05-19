@@ -1,5 +1,5 @@
 # Portfolio Assignment 2
-
+This repository contains the code related to Assignment 2 for Visual Analytics.
 
 ## Assignment description
 
