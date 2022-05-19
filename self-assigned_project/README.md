@@ -30,7 +30,7 @@ To run the analysis script through terminal write: python3 src/cds_vis_proj_anal
 Also see requirements.txt
 
 
-## Discussion of results
-The data is not very balanced which is messing with the results. One might improve the model by duplicating some of the data. 
+## Results
+The data is not very balanced which might be messing with the results. One might improve the model by balancing the dataset (e.g.duplicating some of the data). 
 The results are really bad. This might be because the dataset is not balanced. It could also be that one should not judge a movie by its poster!
 
