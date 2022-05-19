@@ -33,3 +33,4 @@ Also see requirements.txt
 
 
 ## Results
+Both models performs best when it comes to images of machines. 
