@@ -1,4 +1,4 @@
-# Portfolio Assignment 2
+# Portfolio Assignment 3
 This repository contains the code related to Assignment 2 for Visual Analytics.
 
 ## Methods
