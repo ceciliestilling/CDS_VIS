@@ -26,5 +26,10 @@ The classification report is saved under 'out' and is called nn_report.txt.
 ## Usage (reproducing results)
 To run the logistic regression script through terminal write: python3 src/logistic_regression.py
 
-to run the NN script through terminal write: python3 src/nn_classifier.py
+To run the NN script through terminal write: python3 src/nn_classifier.py
+
+
 Also see requirements.txt
+
+
+## Results
