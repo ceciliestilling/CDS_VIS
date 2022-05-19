@@ -8,4 +8,4 @@ In each 'assignment' folder you will find:
 * a folder named 'src' containing the .py script(s)
 * a folder named 'in' containing input
 * a folder named 'out' containing output
-* Requirements file
+* a requirements file
