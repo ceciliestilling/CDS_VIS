@@ -25,7 +25,7 @@ target_name = "image_0001.jpg"
 data = pd.DataFrame(columns=["target","filename", "distance", "path"])
     
 # read target image
-target_image = cv2.imread(os.path.join("..", "in", "flowers", "image_0001.jpg"))
+target_image = cv2.imread(os.path.join("in", "flowers", "image_0001.jpg"))
 # create histogram for all 3 color channels
 target_hist = cv2.calcHist([target_image], [0,1,2], None, [8,8,8], [0,256, 0,256, 0,256])
 # normalise the histogram
@@ -38,7 +38,7 @@ for image_path in Path(flower_dir).glob("*.jpg"):
     # if the image is not the target image
     if image != target_name:
         # read the image and save as comparison image
-        comparison_image = cv2.imread(os.path.join("..", "in", "flowers", image))
+        comparison_image = cv2.imread(os.path.join("in", "flowers", image))
         comp_img_path = image_path
         # create histogram for comparison image
         comparison_hist = cv2.calcHist([comparison_image], [0,1,2], None, [8,8,8], [0,256, 0,256, 0,256])
