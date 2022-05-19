@@ -13,8 +13,14 @@ The script takes a path to an image directory and the filename of a target image
 The output of the script is a csv file that holds the chi squared distance between target image and the three images in the directory that has the shortest distance to the target image.
 
 ## Usage (reproducing results)
+Download data from here https://www.robots.ox.ac.uk/~vgg/data/flowers/102/ and add to 'in' folder
 To run the script through terminal write: python3 src/cds_vis_proj_analysis.py
 Also see requirements.txt
 
 ## Results
-I did not manage to save an image of the comparison images and target image together. Results show that 
+Results show that the three most similar images to the target image (image_0001.jpg) are:
+- image_0597.jpg with a distance score of 1241.81
+- image_0594.jpg with a distance score of 1283.24	
+- image_0614.jpg with a distance score of 1416.44
+
+I did not manage to save an image of the comparison images and target image together.
