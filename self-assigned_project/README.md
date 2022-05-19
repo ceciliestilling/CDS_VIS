@@ -23,7 +23,7 @@ It then defines a folder_create function and a download_images function. The dow
 #### The results are really bad. This might be because the dataset is not balanced. It could also be that one should not judge a movie by its poster!
 
 ## Usage (reproducing results)
-To run the downloader script through terminal write: python3 src/cds_vis_proj_downloader.py
-To run the subfolder script through terminal write: python3 src/cds_vis_proj_subfolders_div.py
-To run the analysis script through terminal write: python3 src/cds_vis_proj_analysis.py
+To run the downloader script through terminal write: python3 src/cds_vis_proj_downloader.py.
+To run the subfolder script through terminal write: python3 src/cds_vis_proj_subfolders_div.py.
+To run the analysis script through terminal write: python3 src/cds_vis_proj_analysis.py.
 Also see requirements.txt
