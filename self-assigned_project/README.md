@@ -1,6 +1,7 @@
 # Can you judge a movie by its poster?
 Self-assigned Project
 
+Download csv from here: https://www.kaggle.com/datasets/neha1703/movie-genre-from-its-poster?resource=download
 
 ## Assignment description
 With this project, I trained a classifier on a dataset of movie posters to see if the model could predict IMDB score from its poster. 
