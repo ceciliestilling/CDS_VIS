@@ -7,7 +7,7 @@ With this project, I trained a classifier on a dataset of movie posters to see i
 In other words, I wanted to see if we can judge a movie by its poster. 
 
 ## Methods
-The project consists of 3 scripts:
+The project consists of 3 scripts which should be run in the following order:
  * Downloader: cds_vis_proj_downloader.py
  * Subfolders: cds_vis_proj_subfolders_div.py
  * Analysis: cds_vis_proj_analysis.py
