@@ -33,4 +33,4 @@ Also see requirements.txt
 
 
 ## Results
-Both models performs best when it comes to images of machines. 
+Both models genrally perform better when it comes to images of machines than on images of animals. 
