@@ -32,5 +32,3 @@ To run the NN script through terminal write: python3 src/nn_classifier.py
 Also see requirements.txt
 
 
-## Results
-Both models genrally perform better when it comes to images of machines than on images of animals. 
