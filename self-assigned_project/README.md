@@ -19,11 +19,18 @@ It then defines a folder_create function and a download_images function. The dow
 
 'cds_vis_proj_analysis.py' is used for the analysis. The data is split in test and train and the labels are then created from the folders made in 'cds_vis_proj_subfolders_div.py'. The model is loaded an initialized and trained. Outputs are saved in 'out' folder
 
-#### OBS! The data is not very balanced which is messing with the results. One might improve the model by duplicating some of the data. 
-#### The results are really bad. This might be because the dataset is not balanced. It could also be that one should not judge a movie by its poster!
 
 ## Usage (reproducing results)
-To run the downloader script through terminal write: python3 src/cds_vis_proj_downloader.py.
-To run the subfolder script through terminal write: python3 src/cds_vis_proj_subfolders_div.py.
-To run the analysis script through terminal write: python3 src/cds_vis_proj_analysis.py.
+To run the downloader script through terminal write: python3 src/cds_vis_proj_downloader.py
+
+To run the subfolder script through terminal write: python3 src/cds_vis_proj_subfolders_div.py
+
+To run the analysis script through terminal write: python3 src/cds_vis_proj_analysis.py
+
 Also see requirements.txt
+
+
+## Discussion of results
+The data is not very balanced which is messing with the results. One might improve the model by duplicating some of the data. 
+The results are really bad. This might be because the dataset is not balanced. It could also be that one should not judge a movie by its poster!
+
